@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio pribadi Syamsul Fuadi — mahasiswa Teknik Elektro, pengembang embedded system, dan penggemar Linux.">
+  <meta name="theme-color" content="#07111f">
+  <meta property="og:title" content="Syamsul Fuadi — Portfolio">
+  <meta property="og:description" content="Mahasiswa Teknik Elektro yang tertarik pada embedded system, audio DSP, Linux, dan pengembangan perangkat lunak.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/288468098?v=4">
+
+  <title>Syamsul Fuadi — Portfolio</title>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="profile-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
+
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="container navbar" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Kembali ke beranda">
+        <span class="brand-mark">SF</span>
+        <span class="brand-name">Syamsul<span>.</span></span>
+      </a>
+
+      <button class="menu-toggle icon-button" type="button" aria-label="Buka menu" aria-controls="nav-links" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <button class="theme-toggle icon-button" type="button" aria-label="Ganti tema tampilan">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="availability">
+            <span class="pulse-dot"></span>
+            Terbuka untuk belajar, berdiskusi, dan berkolaborasi
+          </div>
+
+          <p class="eyebrow">Halo, saya</p>
+          <h1>Syamsul <span>Fuadi</span></h1>
+          <p class="hero-role">
+            <span class="role-prefix">Seorang</span>
+            <span class="typing-text" aria-live="polite">Mahasiswa Teknik Elektro</span>
+            <span class="typing-cursor" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero-description">
+            Saya senang membangun sesuatu di pertemuan antara perangkat keras dan perangkat lunak:
+            embedded system, pemrosesan audio digital, elektronika, Linux, dan eksperimen Android.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">
+              Lihat proyek
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+            </a>
+            <a class="button button-secondary" href="https://github.com/REITZG1" target="_blank" rel="noreferrer">
+              GitHub
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
+            </a>
+          </div>
+
+          <div class="quick-facts" aria-label="Informasi singkat">
+            <div class="fact">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+              <span>Kebumen, Jawa Tengah</span>
+            </div>
+            <div class="fact">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-5 9 5-9 5-9-5z"></path><path d="M7 12.5V17c3 2 7 2 10 0v-4.5"></path></svg>
+              <span>Mahasiswa Teknik Elektro</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-orbit" aria-hidden="true">
+            <span class="orbit orbit-one"></span>
+            <span class="orbit orbit-two"></span>
+          </div>
+
+          <article class="profile-card">
+            <div class="profile-glow" aria-hidden="true"></div>
+            <div class="profile-image-wrap">
+              <img
+                class="profile-image"
+                src="https://avatars.githubusercontent.com/u/288468098?v=4"
+                alt="Foto profil Syamsul Fuadi"
+                width="360"
+                height="360"
+              >
+              <span class="profile-status" title="Aktif belajar dan bereksperimen"></span>
+            </div>
+
+            <div class="profile-card-content">
+              <p class="profile-handle">@REITZG1</p>
+              <h2>Engineering ideas into reality.</h2>
+
+              <div class="profile-metrics">
+                <div><strong>Embedded</strong><span>Hardware + Software</span></div>
+                <div><strong>Open Source</strong><span>Belajar lewat proyek</span></div>
+              </div>
+            </div>
+          </article>
+
+          <div class="floating-chip chip-code">
+            <span>&lt;/&gt;</span>
+            C++ & Embedded
+          </div>
+          <div class="floating-chip chip-linux">
+            <span>◉</span>
+            Linux Explorer
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / Tentang saya</p>
+          <h2>Mengenal saya lebih dekat</h2>
+          <p>Saya menikmati proses memahami cara kerja teknologi hingga ke lapisan yang paling dasar.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-story reveal">
+            <p>
+              Saya adalah mahasiswa Teknik Elektro dari Kebumen, Jawa Tengah. Ketertarikan saya tidak berhenti
+              pada teori rangkaian; saya juga suka mengubah ide menjadi program, prototipe, dan eksperimen yang
+              benar-benar dapat diuji.
+            </p>
+            <p>
+              Saat ini fokus saya banyak berada pada <strong>embedded system</strong>, <strong>audio DSP</strong>,
+              pemrograman C/C++, perangkat berbasis ESP32 dan Arduino, serta eksplorasi sistem Linux dan Android.
+              Saya menyukai solusi yang efisien, dapat dipahami, dan memiliki tujuan nyata.
+            </p>
+            <blockquote>
+              “Teknologi terbaik bukan hanya yang terlihat canggih, tetapi yang bekerja dengan efisien dan dapat dipahami.”
+            </blockquote>
+          </article>
+
+          <div class="about-highlights reveal">
+            <article class="highlight-card">
+              <span class="highlight-number">01</span>
+              <div>
+                <h3>Problem Solver</h3>
+                <p>Menelusuri masalah dari gejala, menguji kemungkinan, lalu membangun solusi yang masuk akal.</p>
+              </div>
+            </article>
+            <article class="highlight-card">
+              <span class="highlight-number">02</span>
+              <div>
+                <h3>Hands-on Learner</h3>
+                <p>Belajar melalui eksperimen langsung, pengukuran, debugging, dan penyempurnaan bertahap.</p>
+              </div>
+            </article>
+            <article class="highlight-card">
+              <span class="highlight-number">03</span>
+              <div>
+                <h3>Curious Engineer</h3>
+                <p>Tertarik memahami hubungan antara kode, sistem operasi, elektronik, dan performa perangkat.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / Keahlian</p>
+          <h2>Teknologi yang saya pelajari dan gunakan</h2>
+          <p>Keahlian saya berkembang melalui perkuliahan, proyek mandiri, dan eksperimen teknis.</p>
+        </div>
+
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / Pendidikan & fokus</p>
+          <h2>Perjalanan belajar</h2>
+          <p>Pendidikan formal menjadi fondasi, sementara proyek mandiri memperluas cara saya berpikir.</p>
+        </div>
+
+        <div class="journey-layout">
+          <div class="timeline reveal">
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-meta">
+                  <span>Saat ini</span>
+                  <span>Pendidikan</span>
+                </div>
+                <h3>Program Studi Teknik Elektro</h3>
+                <p class="timeline-place">Mahasiswa aktif</p>
+                <p>
+                  Mempelajari dasar kelistrikan, elektronika, pemrograman, sistem digital, rangkaian,
+                  instrumentasi, serta penerapannya pada perangkat modern.
+                </p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content glass-card">
+                <div class="timeline-meta">
+                  <span>Berkelanjutan</span>
+                  <span>Mandiri</span>
+                </div>
+                <h3>Eksperimen Embedded, Linux & Android</h3>
+                <p class="timeline-place">Self-directed learning</p>
+                <p>
+                  Mengembangkan proyek ESP32, mempelajari audio digital, menjalankan Linux ARM,
+                  mencoba custom ROM, serta menganalisis performa dan stabilitas perangkat.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="current-focus glass-card reveal">
+            <p class="card-label">Fokus sekarang</p>
+            <h3>Apa yang sedang saya dalami?</h3>
+            <ul>
+              <li><span>01</span> Real-time audio processing pada mikrokontroler</li>
+              <li><span>02</span> Integrasi sensor, ADC, DAC, dan protokol I²S</li>
+              <li><span>03</span> Optimasi program C/C++ untuk embedded system</li>
+              <li><span>04</span> Linux ARM, kernel, driver grafis, dan Android</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow">04 / Proyek pilihan</p>
+            <h2>Beberapa hal yang saya bangun</h2>
+            <p>Proyek yang menggabungkan pemrograman, elektronika, dan rasa ingin tahu.</p>
+          </div>
+          <a class="text-link" href="https://github.com/Syamsul37?tab=repositories" target="_blank" rel="noreferrer">
+            Semua repositori
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+          </a>
+        </div>
+
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <article class="contact-card reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">05 / Mari terhubung</p>
+            <h2>Punya ide, proyek, atau topik teknis yang menarik?</h2>
+            <p>
+              Saya terbuka untuk berdiskusi, bertukar pengetahuan, dan berkolaborasi dalam proyek
+              embedded system, elektronika, perangkat lunak, maupun open source.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://github.com/REITZG1" target="_blank" rel="noreferrer">
+              Kunjungi GitHub
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg>
+            </a>
+            <a class="button button-secondary" href="#top">Kembali ke atas</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="brand" href="#home">
+          <span class="brand-mark">SF</span>
+          <span class="brand-name">Syamsul<span>.</span></span>
+        </a>
+        <p>Dibangun dengan HTML, CSS, JavaScript, dan rasa ingin tahu.</p>
+      </div>
+      <p>© <span id="current-year"></span> Syamsul Fuadi.</p>
+    </div>
+  </footer>
+</body>
+</html>
