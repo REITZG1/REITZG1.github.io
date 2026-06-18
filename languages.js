@@ -22,7 +22,7 @@ window.TRANSLATIONS = {
     location: "Indonesia",
     status: "Mahasiswa Teknik Elektro",
 
-    profileAlt: "Foto profil Syamsul Fuadi",
+    profileAlt: "Foto profil REITZG",
     profileStatus: "Aktif belajar dan bereksperimen",
     profileMetrics1: "Hardware + Software",
     profileMetrics2: "Belajar lewat proyek",
@@ -103,7 +103,7 @@ window.TRANSLATIONS = {
     location: "Indonesia",
     status: "Electrical Engineering Student",
 
-    profileAlt: "Syamsul Fuadi profile photo",
+    profileAlt: "REITZG profile photo",
     profileStatus: "Active learning and experimenting",
     profileMetrics1: "Hardware + Software",
     profileMetrics2: "Learning through projects",
