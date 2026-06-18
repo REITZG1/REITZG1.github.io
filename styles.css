@@ -288,6 +288,16 @@ html[data-theme="light"] .moon-icon {
   display: none;
 }
 
+.lang-toggle {
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.lang-text {
+  line-height: 1;
+}
+
 .menu-toggle {
   display: none;
 }
